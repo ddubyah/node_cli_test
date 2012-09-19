@@ -1,0 +1,22 @@
+{
+  "name": "node-cli-spike",
+  "version": "0.0.1",
+  "description": "Spiking creating cli apps with node",
+  "private":"true",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "test"
+  },
+  "bin":{ "nodeclitest":".bin/cli" },
+  "repository": "",
+  "keywords": [
+    "cli",
+    "spike"
+  ],
+  "author": "ddubyah",
+  "license": "BSD",
+  "engines": { "node": "~0.6.10 || 0.8 || 0.9" },
+  "dependencies": {
+    "coffee-script": "~1.3.3"
+  }
+}
